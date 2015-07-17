@@ -23,7 +23,7 @@ mask2(ind) = true;
 
 im_s2(yind2, xind2, :) = im_s(yind, xind, :);
 im_t(repmat(mask2, [1 1 3])) = im_s2(repmat(mask2, [1 1 3]));
-
+imwrite(im_t, 'results/naiveBlend.jpg');
 figure(1), hold off, imagesc(im_s2), axis image;
 figure(2), hold off, imagesc(im_t), axis image;
 drawnow;
