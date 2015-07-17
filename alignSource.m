@@ -1,3 +1,4 @@
+% credits: Derek Hoeim http://dhoiem.cs.illinois.edu/
 function [im_s2, mask2] = alignSource(im_s, mask, im_t)
 % im_s2 = alignSource(im_s, mask, im_t)
 % Asks user for bottom-center position and outputs an aligned source image.

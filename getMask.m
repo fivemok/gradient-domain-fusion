@@ -1,3 +1,4 @@
+% credits: Derek Hoeim http://dhoiem.cs.illinois.edu/
 function [mask, poly] = getMask(im)
 % [mask, poly] = getMask(im)
 % Asks user to draw polygon around input image.  Provides binary mask of

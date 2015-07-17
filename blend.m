@@ -1,5 +1,5 @@
 DO_BLEND = true;
-DO_MIXED  = false;
+DO_MIXED  = true;
 
 if DO_BLEND
     % do a small one first, while debugging
@@ -13,6 +13,7 @@ if DO_BLEND
 
     % blend
     im_blend = poissonBlend(im_s, mask_s, im_background);
+    imwrite(im_blend, 'results/poissonBlend.jpg');
     figure(3), hold off, imshow(im_blend)
 end
 
@@ -22,5 +23,6 @@ if DO_MIXED
     
     % blend
     im_blend = mixedBlend(im_s, mask_s, im_background);
+    imwrite(im_blend, 'results/mixedBlend.jpg');
     figure(3), hold off, imshow(im_blend);
 end

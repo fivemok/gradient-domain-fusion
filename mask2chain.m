@@ -1,3 +1,4 @@
+% credits: Derek Hoeim http://dhoiem.cs.illinois.edu/
 function [x, y] = mask2chain_tmp(mask)
 
 crack_img = seg2cracks(double(mask));
