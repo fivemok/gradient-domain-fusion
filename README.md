@@ -4,7 +4,7 @@ Implementation of poisson blending technique described by Perez et al. in the pa
 
 ## Image 1
 
-![im2](images/im2.jpg)
+![im2](images/im2.JPG)
 
 ## Image 2
 
