@@ -35,7 +35,6 @@ e = 1;
 for j=1:var
     y = yy(j);
     x = xx(j);
-    % laplacian pyramid;
     % set up coefficients for A; 4(center)-1(left)-1(right)-1(up)-1(down)
     A(e,im2var(y,x)) = 4;
     if (m(y-1,x) == 1)
